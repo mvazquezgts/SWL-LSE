@@ -159,29 +159,6 @@ if __name__ == '__main__':
     parser.add_argument('--rename', action='store_false')
     parser.add_argument('--suffix', required=False, type=str, default="")
 
-
-    # folders_data = ["joints_C4_xyzc"]
-
-    # folders_data = [
-    #     "bones_C4_xyzc",
-    #     "joints_C4_xyzc",
-    #     "bones_motion_C4_xyzc",
-    #     "joints_motion_C4_xyzc",
-    #     "bones_motion5_C4_xyzc",
-    #     "joints_motion5_C4_xyzc",
-    #     "bones_C4_xyzca",
-    #     "joints_C4_xyzca",
-    #     "bones_C4_xyzcg",
-    #     "joints_C4_xyzcg",
-    #     "joints_bones_C4_xyzc",
-    #     "joints_bones_C4_xyzca",
-    #     "joints_bones_C4_xyzcg",
-    #     "joints_bones_motion_C4_xyzca",
-    #     "joints_bones_motion5_C4_xyzca",
-    #     "joints_bones_motion_C4_xyzcg",
-    #     "joints_bones_motion5_C4_xyzcg"
-    #     ]
-
     folders_data = [
         "bones_C4_xyzc",
         "joints_C4_xyzc",
@@ -223,12 +200,6 @@ if __name__ == '__main__':
         "angles_extended_C3_xyc",
         "angles_extended_C4_xyzc",
         ]
-
-
-    # folders_data = [
-    #     "joints_motion_C4_xyzc",
-    #     "joints_motion_C3_xyc"
-    #     ]
 
 
     splits_data = {
