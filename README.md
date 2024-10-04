@@ -7,7 +7,7 @@ This repository contains the code necessary to replicate the experiments outline
 The repository is divided into two main sections, each located in different folders:
 
 - **Mediapipe_keypoints**: Contains all the scripts and models used to extract feature vectors from videos and build the datasets for training and evaluation.
-- **Msg3d**: Contains the MSG3D model, adapted from the original version XXXX with several modifications.
+- **Msg3d**: Contains the original MSG3D model present in [Github](https://github.com/kenziyuliu/MS-G3D) with some modifications.
 
 ## Datasets Used
 
